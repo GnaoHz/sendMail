@@ -16,11 +16,22 @@ Bước 3. Tạo một template email:
 Bước 4. Lấy các thông tin cần thiết:
     - Service ID: ID của dịch vụ email bạn đã kết nối.
     - Template ID: ID của mẫu email mà bạn đã tạo.
-    - publicKey và privateKey ở phần Account
+    - publicKey và privateKey ở phần Account trong dashboard của EmailJS.
 
 ##2. Install EmailJS SDK: $ flutter pub add emailjs
 
-##3. Thay đổi code trong main.dart:
-
+##3. Thay đổi code trong main.dart(Service ID,Template ID, publicKey và privateKey ):
+        await emailjs.send(
+        '...', //YOUR_SERVICE_ID
+        '...', //YOUR_TEMPLATE_ID
+        {
+        },
+        const emailjs.Options(
+            publicKey: '...',  //YOUR_PUBLIC_KEY
+            privateKey: '...',  //YOUR_PRIVATE_KEY
+            limitRate: const emailjs.LimitRate(
+              id: 'app',
+              throttle: 10000,
+            )),
 
 
