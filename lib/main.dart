@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
     try {
       await emailjs.send(
         'service_ym1m4of', //YOUR_SERVICE_ID
-        'template_84faztb', //YOUR_TEMPLATE_ID
+        'template_pb4mbu8', //YOUR_TEMPLATE_ID
         {
           'from_name': 'Huang',
           'to_name': 'Dao', 
@@ -42,8 +42,8 @@ class _HomePageState extends State<HomePage> {
           'reply_to': 'lolwr148@gmail.com',
         },
         const emailjs.Options(
-            publicKey: 'SEfDGc71vVQwxT5g9',  //YOUR_PUBLIC_KEY
-            privateKey: 'cosGBDPYLJmGGDHiOZgJu',  //YOUR_PRIVATE_KEY
+            publicKey: '...',  //YOUR_PUBLIC_KEY
+            privateKey: '...',  //YOUR_PRIVATE_KEY
             limitRate: const emailjs.LimitRate(
               id: 'app',
               throttle: 10000,
