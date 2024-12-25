@@ -1,4 +1,4 @@
-# SEND MAIL
+![image](https://github.com/user-attachments/assets/a1846ec9-8aee-4333-b19f-6c7c6bbed1f9)# SEND MAIL
 
 ## 1. Use EmailJS account for sending emails.
 Bước 1. Truy cập link: https://www.emailjs.com/ để đăng ký và đăng nhập.
@@ -20,5 +20,7 @@ Bước 4. Lấy các thông tin cần thiết:
 
 ##2. Install EmailJS SDK: $ flutter pub add emailjs
 
-##3. Thay đổi code: 
+##3. Thay đổi code trong main.dart:
+
+
 
