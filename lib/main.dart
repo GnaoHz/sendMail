@@ -32,14 +32,14 @@ class _HomePageState extends State<HomePage> {
   void _sendEmail() async {
     try {
       await emailjs.send(
-        'service_ym1m4of', //YOUR_SERVICE_ID
-        'template_pb4mbu8', //YOUR_TEMPLATE_ID
+        '...', //YOUR_SERVICE_ID
+        '...', //YOUR_TEMPLATE_ID
         {
           
         },
         const emailjs.Options(
-            publicKey: 'SEfDGc71vVQwxT5g9',  //YOUR_PUBLIC_KEY
-            privateKey: 'cosGBDPYLJmGGDHiOZgJu',  //YOUR_PRIVATE_KEY
+            publicKey: '...',  //YOUR_PUBLIC_KEY
+            privateKey: '...',  //YOUR_PRIVATE_KEY
             limitRate: const emailjs.LimitRate(
               id: 'app',
               throttle: 10000,
