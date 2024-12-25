@@ -20,7 +20,7 @@ Bước 4. Lấy các thông tin cần thiết:
 
 ## 2. Install EmailJS SDK: $ flutter pub add emailjs
 
-## 3. Thay đổi code trong main.dart(Service ID,Template ID, publicKey và privateKey ):
+## 3. Thay đổi code trong main.dart(Service ID,Template ID, publicKey và privateKey ).
 ![image](https://github.com/user-attachments/assets/9551fbd1-b769-49f3-8cfe-d41dd229c776)
 
 
