@@ -1,3 +1,3 @@
 # sendMail
 
-# Use EmailJS account for sending emails.
+## Use EmailJS account for sending emails.
