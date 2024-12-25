@@ -32,8 +32,8 @@ class _HomePageState extends State<HomePage> {
   void _sendEmail() async {
     try {
       await emailjs.send(
-        'service_ym1m4of', //YOUR_SERVICE_ID
-        'template_pb4mbu8', //YOUR_TEMPLATE_ID
+        '...', //YOUR_SERVICE_ID
+        '...', //YOUR_TEMPLATE_ID
         {
           'from_name': 'Huang',
           'to_name': 'Dao', 
